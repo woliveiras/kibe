@@ -1,0 +1,26 @@
+{
+  "name": "kibe",
+  "description": "A simple boilerplate for Gulp workflow",
+  "main": "Gulpfile.js",
+  "authors": [
+    "William de Oliveira Souza"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "Gulp",
+    "Automation",
+    "Front",
+    "End"
+  ],
+  "homepage": "https://github.com/woliveiras/kibe",
+  "moduleType": [
+    "node"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
