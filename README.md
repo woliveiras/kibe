@@ -1,3 +1,6 @@
+[![Build Status](https://travis-ci.org/woliveiras/kibe.svg)](https://travis-ci.org/woliveiras/kibe) 
+[![Coverage Status](https://coveralls.io/repos/woliveiras/kibe/badge.svg?branch=master&service=github)](https://coveralls.io/github/woliveiras/kibe?branch=generator)
+
 # kibe
 
 A substitute for the [Pastel](https://github.com/woliveiras/pastel).
