@@ -4,7 +4,7 @@
   "description": "Start projects with the most common tasks of my workflow, using Gulp",
   "main": "app/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "scripts/test"
   },
   "repository": {
     "type": "git",
@@ -23,5 +23,12 @@
   "homepage": "https://github.com/woliveiras/kibe#readme",
   "dependencies": {
     "yeoman-generator": "^0.22.1"
+  },
+  "devDependencies": {
+    "coveralls": "^2.11.6",
+    "istanbul": "^0.4.1",
+    "mocha": "^2.3.4",
+    "yeoman-assert": "^2.1.1",
+    "yeoman-test": "^1.0.0"
   }
 }
