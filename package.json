@@ -1,39 +1,38 @@
 {
-  "name": "kibe",
-  "version": "0.0.0",
-  "description": "A simple boilerplate for Gulp workflow",
-  "main": "Gulpfile.js",
+  "name": "generator-kibe",
+  "version": "0.0.1",
+  "description": "Start projects with the most common tasks of my workflow, using Gulp",
+  "main": "app/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "scripts/test"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/woliveiras/kibe.git"
+    "url": "git+https://github.com/woliveiras/kibe.git"
   },
   "keywords": [
-    "Gulp",
-    "Automation",
-    "Front",
-    "End"
+    "kibe",
+    "pastel",
+    "gulp"
   ],
-  "author": "William de Oliveira Souza",
+  "author": "William Oliveira <w.oliveira542@gmail.com> (https://github.com/woliveiras)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/woliveiras/kibe/issues"
   },
+  "homepage": "https://github.com/woliveiras/kibe#readme",
+  "dependencies": {
+    "yeoman-generator": "^0.22.1"
+  },
   "devDependencies": {
-    "jeet": "~6.1.2",
-    "rupture": "~0.6.1",
-    "autoprefixer-stylus": "~0.8.0",
-    "gulp-concat": "~2.6.0",
-    "gulp-plumber": "~1.0.1",
-    "gulp": "~3.9.0",
-    "gulp-stylus": "~2.1.0",
-    "gulp-uglify": "~1.4.2",
-    "browser-sync": "~2.9.11",
-    "kouto-swiss": "~0.11.13",
-    "gulp-imagemin": "~2.3.0",
-    "gulp-cache": "~0.3.0",
-    "gulp.spritesmith": "~4.2.2"
+    "coveralls": "^2.11.6",
+    "gulp": "^3.9.0",
+    "gulp-jshint": "^1.11.2",
+    "gulp-util": "^3.0.7",
+    "istanbul": "^0.4.1",
+    "jshint-stylish": "^2.1.0",
+    "mocha": "^2.3.4",
+    "yeoman-assert": "^2.1.1",
+    "yeoman-test": "^1.0.0"
   }
 }

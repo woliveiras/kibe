@@ -1,13 +1,10 @@
-module.exports = function () {
-  var config = {
-    dev     : './src/',
-    js      : './src/js/',
-    mainjs  : 'main.js',
-    styl    : './src/styl/',
-    sprites : './src/img/sprites/',
-    dist    : './dist/',
-    img     : './dist/img/'
-  };
+'use strict';
 
-  return config;
+
+module.exports = {
+  lintFiles: [
+    './gulpfile.js',
+    './test/**/*.js',
+    'app/index.js'
+  ]
 };

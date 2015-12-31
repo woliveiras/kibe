@@ -1,0 +1,39 @@
+{
+  "name": "kibe",
+  "version": "0.0.0",
+  "description": "A simple boilerplate for Gulp workflow",
+  "main": "Gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/woliveiras/kibe.git"
+  },
+  "keywords": [
+    "Gulp",
+    "Automation",
+    "Front",
+    "End"
+  ],
+  "author": "William de Oliveira Souza",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/woliveiras/kibe/issues"
+  },
+  "devDependencies": {
+    "jeet": "~6.1.2",
+    "rupture": "~0.6.1",
+    "autoprefixer-stylus": "~0.8.0",
+    "gulp-concat": "~2.6.0",
+    "gulp-plumber": "~1.0.1",
+    "gulp": "~3.9.0",
+    "gulp-stylus": "~2.1.0",
+    "gulp-uglify": "~1.4.2",
+    "browser-sync": "~2.9.11",
+    "kouto-swiss": "~0.11.13",
+    "gulp-imagemin": "~2.3.0",
+    "gulp-cache": "~0.3.0",
+    "gulp.spritesmith": "~4.2.2"
+  }
+}
