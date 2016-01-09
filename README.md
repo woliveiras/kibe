@@ -34,7 +34,7 @@ Install [Yeoman](http://yeoman.io/) if you don't have installed on your system:
 npm i -g yo
 ```
 
-Install Kibe:
+Install Kibe on your project:
 
 ```
 npm i generator-kibe
@@ -72,11 +72,9 @@ Simple, not?
 
 ### To development
 
-Run
+Run `gulp` one time to prepare the `dist` folder.
 
 ```
-gulp
-
 gulp server
 ```
 
