@@ -143,3 +143,5 @@ Run:
 ```
 gulp browser-sync
 ```
+
+Thanks @darlanmendonca
