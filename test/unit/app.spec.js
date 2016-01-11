@@ -27,7 +27,15 @@ describe('kibe application', function() {
       'src/robots.txt',
       'src/img',
       'src/js',
-      'src/styl'
+      'src/styl',
+      './tasks/scripts.js',
+      './tasks/styles.js',
+      './tasks/imagemin.js',
+      './tasks/sprites.js',
+      './tasks/move.js',
+      './tasks/browser-sync.js',
+      './tasks/server.js',
+      './tasks/default.js'
     ]);
   });
 });
