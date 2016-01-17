@@ -26,6 +26,9 @@
     "front-end"
   ],
   "author": "William Oliveira <w.oliveira542@gmail.com> (https://github.com/woliveiras)",
+  "contributors": [
+    "Darlan Mendonça (http://github.com/darlanmendonca)"
+  ],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/woliveiras/kibe/issues"
