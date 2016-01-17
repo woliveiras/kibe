@@ -1,6 +1,6 @@
 {
   "name": "generator-kibe",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Start projects with the most common tasks of my workflow, using Gulp",
   "main": "app/index.js",
   "scripts": {
@@ -13,7 +13,17 @@
   "keywords": [
     "kibe",
     "pastel",
-    "gulp"
+    "gulp",
+    "html",
+    "css",
+    "javascript",
+    "stylus",
+    "rupture",
+    "koutu-swiss",
+    "nodejs",
+    "smacss",
+    "sprites",
+    "front-end"
   ],
   "author": "William Oliveira <w.oliveira542@gmail.com> (https://github.com/woliveiras)",
   "license": "MIT",
