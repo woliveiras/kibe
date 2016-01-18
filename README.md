@@ -144,4 +144,4 @@ Run:
 gulp browser-sync
 ```
 
-Thanks @darlanmendonca
+Thanks [@darlanmendonca](http://twitter.com/darlanmendonca)
