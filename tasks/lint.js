@@ -7,11 +7,11 @@ var stylish = require('jshint-stylish');
 var config = require('../gulp.config.js');
 
 gulp.task('lint', function() {
-  var beep = function() {gutil.beep()};
-
   gulp
     .src(config.lintFiles)
     .pipe(jshint())
-    .pipe(jshint.reporter(beep))
+    .pipe(jshint.reporter(function() {
+      gutil.beep();
+    }))
     .pipe(jshint.reporter(stylish));
 });

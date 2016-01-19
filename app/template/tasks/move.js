@@ -11,4 +11,4 @@ var files = [
 gulp.task('move', function() {
   gulp.src(files)
     .pipe(gulp.dest(config.dist));
-})
+});
