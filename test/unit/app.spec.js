@@ -1,10 +1,12 @@
 'use strict';
 
-var helpers = require('yeoman-test');
-var assert = require('yeoman-assert');
-var generator = process.env.PWD + '/app';
+let helpers = require('yeoman-test');
+let assert = require('yeoman-assert');
+let generator = `${process.env.PWD}/app`;
 
-describe('kibe application', function() {
+describe('kibe application', scaffolding);
+
+function scaffolding() {
   before(function (done) {
     helpers
       .run(generator)
@@ -38,4 +40,4 @@ describe('kibe application', function() {
       './tasks/default.js'
     ]);
   });
-});
+}

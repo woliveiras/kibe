@@ -1,12 +1,12 @@
 'use strict';
 
-let generators = require('yeoman-generator');
-let path = require('path');
+var generators = require('yeoman-generator');
+var path = require('path');
 
 module.exports = generators.Base.extend({
-  constructor,
-  template,
-  dependencies
+  constructor: constructor,
+  template: template,
+  dependencies: dependencies
 });
 
 function constructor() {
@@ -14,9 +14,9 @@ function constructor() {
 }
 
 function template() {
-  this.sourceRoot(path.join(__dirname,  'template'), this);
-  let source = this.templatePath();
-  let dest = this.destinationPath('.');
+  this.sourceRoot(path.join(__dirname, 'template'), this);
+  var source = this.templatePath();
+  var dest = this.destinationPath('.');
 
   this.fs.copy(source, dest, {});
   this.fs.copy(this.templatePath('.*'), dest, {});
