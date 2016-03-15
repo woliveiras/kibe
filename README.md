@@ -10,6 +10,7 @@ Kibe is a simple Yeoman Generator to start projects with the most common tasks o
 **I use:**
 
 - [NodeJS](http://nodejs.org/)
+- [Babel](https://babeljs.io/)
 - [Gulpjs](http://gulpjs.com/)
 - [Bower](http://bower.io/)
 - [Stylus](https://learnboost.github.io/stylus/)
