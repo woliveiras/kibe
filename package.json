@@ -1,6 +1,6 @@
 {
   "name": "generator-kibe",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Start projects with the most common tasks of my workflow, using Gulp",
   "main": "app/index.es5.js",
   "scripts": {
@@ -26,6 +26,8 @@
     "smacss",
     "sprites",
     "front-end"
+    "Babel",
+    "Generator"
   ],
   "author": "William Oliveira <w.oliveira542@gmail.com> (https://github.com/woliveiras)",
   "contributors": [
